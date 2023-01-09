@@ -1,3 +1,4 @@
+/* HEADER SECTION STYLES */
 .site-header {
   background-color: white;
 }
@@ -15,6 +16,7 @@
   color: #000;
 }
 
+/* HERO SECTION STYLES */
 .main-button {
   font-size: 13px;
   line-height: 15px;
@@ -55,6 +57,7 @@
  letter-spacing: 0.5px;
 }
 
+/* FEATURE SECTION STYLES */
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -83,6 +86,7 @@
   letter-spacing: 0.5px;
 }
 
+/* PROMO SECTION STYLES */
 .promo {
   background-color: #252420;
   color: #fff;
@@ -112,6 +116,7 @@
   object-fit: cover;
 }
 
+/* SITE FOOTER STYLES */
 .site-footer {
   background-color: #f8f8ff;
 }
