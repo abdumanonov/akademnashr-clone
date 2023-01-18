@@ -9,10 +9,19 @@ body {
 /* HEADER SECTION STYLES */
 .site-header {
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header-actions {
+  display: flex;
+  align-items: center;
 }
 
 .site-nav-list {
   list-style: none;
+  display: flex;
 }
 
 .site-nav-item {
@@ -35,6 +44,9 @@ body {
 }
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -73,6 +85,14 @@ body {
 .feature {
   width: 340px;
 }
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
 .feature-icon-wrapper {
   width: 100px;
   height: 100px;
@@ -89,6 +109,9 @@ body {
 
 /* PROMO SECTION STYLES */
 .promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #252420;
   color: #fff;
 }
@@ -118,6 +141,18 @@ body {
 .site-footer {
   background-color: #f8f8ff;
 }
+
+.site-footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer-socials {
+  display: flex;
+  align-items: center;
+}
+
 .site-footer ul {
   list-style: none;
 }
@@ -127,10 +162,14 @@ body {
   background-color: rgba(37, 36, 32, 0.5);
 }
 
+.site-footer-bottom {
+  display: flex;
+}
 .site-footer-links {
   width: 224px;
   line-height: 19px;
 }
+
 .site-footer-links a {
   text-decoration: none;
   color: #252420;
