@@ -5,6 +5,10 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus {
+  outline: 2px dotted orange;
+  outline-offset: 2px;
+}
 
 /* HEADER SECTION STYLES */
 .site-header {
