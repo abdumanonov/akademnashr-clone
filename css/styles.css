@@ -16,6 +16,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top: 5px solid orange;
+  background-color: #fff;
 }
 
 .logo-link {
@@ -38,6 +42,7 @@ transition: opacity 0.4s ease;
 .site-nav-list {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .site-nav-item {
@@ -63,7 +68,11 @@ transition: opacity 0.4s ease;
 
 /* HERO SECTION STYLES */
 .main-button {
+  display: inline-block;
+  padding: 12px 24px;
   font-size: 13px;
+  border-radius: 4px;
+  font-weight: bold;
   line-height: 15px;
   background-color: #ff7500;
   color: #fff;
@@ -94,12 +103,20 @@ transition: opacity 0.4s ease;
 .hero-line {
   width: 80px;
   height: 3px;
+  border: none;
   background-color: #ff7500;
 }
 
+.orange-line {
+  width: 80px;
+  height: 3px;
+  border: 0;
+  background-color: #ff7500;
+}
 .hero-img {
   width: 510px;
   height: 510px;
+  border-radius: 8px;
 }
 
 .hero-heading {
@@ -110,6 +127,11 @@ transition: opacity 0.4s ease;
 
 
 /* FEATURE SECTION STYLES */
+.features {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .features-heading {
   width: 440px;
   font-size: 72px;
@@ -126,12 +148,16 @@ transition: opacity 0.4s ease;
   display: flex;
   justify-content: space-between;
   list-style: none;
-
+  padding: 0;
 }
 
 .feature-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
   background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -150,6 +176,7 @@ transition: opacity 0.4s ease;
   align-items: center;
   background-color: #252420;
   color: #fff;
+  border-radius: 12px;
 }
 
 .promo-content {
@@ -171,11 +198,14 @@ transition: opacity 0.4s ease;
   width: 440px;
   height: 440px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 /* SITE FOOTER STYLES */
 .site-footer {
   background-color: #f8f8ff;
+  padding-top: 56px;
+  padding-bottom: 56px;
 }
 
 .site-footer-top {
@@ -187,6 +217,7 @@ transition: opacity 0.4s ease;
 .site-footer-socials {
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .site-footer-socials a {
@@ -203,10 +234,12 @@ transition: opacity 0.4s ease;
 
 .site-footer ul {
   list-style: none;
+  padding: 0;
 }
 
 .site-footer-line {
   height: 2px;
+  border: 0;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
